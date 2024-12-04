@@ -1,0 +1,502 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styling */
+header {
+  padding: 10px 0;
+    margin-bottom:20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  max-height: 130px;
+    border-raidus:200px;
+}
+.lo
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.nav-links a:hover {
+  color:green;
+  border-radius: 5px;
+}
+
+/* Content Section Styling */
+.content {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  max-width: 50%;
+}
+
+ 
+h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: -20px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color:green;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* Content Section Styling */
+.conten {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tex {
+  flex: 1;
+  max-width: 50%;
+}
+
+ 
+h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: -20px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color:green;
+  color: black;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.conten img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* Content Section Styling */
+.contentx {
+  background: url('Nike Air VaporMax Plus Mens Shoes.jpeg';);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.texp {
+  flex: 1;
+  max-width: 50%;
+}
+
+ 
+h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: -20px;
+  color: #333;
+}
+
+.contextx p {
+ text-align:left;
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  background-color:black;
+  color:white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.contenl img{
+    height:760px;
+}
+
+
+ncnbc eb c
+
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.container h1 {
+    margin:50px;
+    font-size: 48px;
+    color: #333;
+    margin-bottom:50px;
+}
+
+. container img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.container p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.descript img{
+ width:1005   
+}
+
+
+footer {
+    padding: 20px;
+    color:black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+Here's how to build a responsive website using HTML and CSS. The key is to use flexible layouts, media queries, and responsive design techniques.
+
+HTML:
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ResponsiveSite</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Responsive Design</h1>
+        <p>Creating websites that look great on any device, whether it's a phone, tablet, or desktop.</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>Building fast, responsive websites.</p>
+        </div>
+        <div class="service">
+            <h2>UI/UX Design</h2>
+            <p>Creating intuitive and beautiful user experiences.</p>
+        </div>
+        <div class="service">
+            <h2>SEO Optimization</h2>
+            <p>Helping websites rank better on search engines.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 ResponsiveSite. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+CSS:
+css
+Copy code
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.service {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.service h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #333;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
