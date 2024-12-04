@@ -1,0 +1,267 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black; /* Light text for better contrast */
+    background:white; /* Dark background for night mode */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav {
+    background:white; 
+    padding: 10px 20px;
+    border-radius: 15px; /* Rounded corners for the nav */
+    margin-bottom: -30px; /* Spacing below the nav */
+}
+
+.logo{
+    margin-bottom:-50px;
+    font-size:50px;
+    list-style: none; /* Remove bullets from the list */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content:left; /* Center the nav items */
+    padding: 0;  
+}
+
+.nav-links {
+    list-style: none; /* Remove bullets from the list */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content:right; /* Center the nav items */
+    padding: 0;
+}
+
+
+.nav-links li {
+    margin: 0 15px; /* Spacing between nav items */
+}
+
+.nav-links a {
+    color:black; /* Light text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px; /* Adjusted padding for balance */
+}
+
+.hero-text h1{
+    flex: 1;
+    text-align: left;
+    font-size:80px;
+    margin-bottom:-20px;
+}
+
+.hero-text p{
+   flex: 1;
+    text-align: left;
+    font-size:35px;
+    }
+
+.hero-image {
+    width: 300px;
+    border-radius: 15px; /* Rounded corners for the image */
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff; /* Soft blue for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Added transform for button hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.about, .services, .projects {
+    padding: 50px 20px;
+    text-align: center;
+    background:white; /* Dark background for sections */
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px 0; /* Margin between sections */
+}
+.vision h1{
+    font-size:40px;
+}
+
+.mission h1{
+    font-size:40px;
+    Display:flex;
+    justify-content:right;
+    margin:30px;
+}
+
+.mission p{
+    Display:flex;
+    justify-content:right;
+    margin-bottom:30px;
+}
+
+.education h2, .about h2, .services h2, .projects h2 {
+    color: #007bff; /* Soft color for headings */
+}
+
+.service-card, .project-card {
+    background: white; /* Dark card background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    width: calc(30% - 40px);
+    transition: transform 0.3s; /* Added transform for card hover */
+}
+
+
+.about-image {
+    width: 300px;
+    border-radius: 15px; /* Rounded corners for the image */
+    margin-left: 20px;
+}
+
+.service-card:hover, .project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Night mode styles */
+body.night {
+    background: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text */
+}
+
+body.night header {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for hero section */
+}
+
+body.night button {
+    background-color: #007bff; /* Softer night button color */
+}
+
+body.night .service-card,
+body.night .project-card {
+    background: #1e1e1e; /* Dark card background */
+}
+
+
+footer {
+    padding: 20px;
+    color:white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #333;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+
+    
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+

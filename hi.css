@@ -1,0 +1,26 @@
+*{
+    background:#0d0d0d;;
+    color:white;
+    padding:0;
+    margin:0;
+    border:0;
+   font-family: 'work sans', ;
+}
+header h1{
+    background-img:url("118.jpg")no repeat/cover;
+    font-size:200px;
+    text-align:left;
+    text-align:center;
+} 
+header img{
+    width:300px;
+}
+ header h3{
+ text-align:center;
+     font-size:100px;
+     }
+
+ header p{
+     font-size:30px;
+     text-align:center;
+ }
